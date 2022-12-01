@@ -1,0 +1,11 @@
+:root {
+    --background-color: rgb(31, 31, 31);
+    --primary-color: rgb(46, 199, 255);
+    --bold-weight: 900;
+    --light-weight: 300;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
