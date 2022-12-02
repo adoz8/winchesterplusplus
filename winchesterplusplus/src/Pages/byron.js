@@ -12,15 +12,19 @@ import AboutMe from "../Components/ByronComponents/aboutMe/aboutMe";
 
 const Byron = () => {
     return(
-        <>
+        // <div className="main-page">
+        //     <div className="page">
+        //         <NavBar/>
+        //         <Introduction/>
+        //     </div>
+        //     <AnimationOnScroll className="page" animateIn="animate__animated animate__fadeIn" animateOut="">
+        //         <AboutMe/>
+        //     </AnimationOnScroll>
+        // </div>
             <div className="page">
                 <NavBar/>
                 <Introduction/>
             </div>
-            <AnimationOnScroll className="page" animateIn="animate__animated animate__fadeIn" animateOut="">
-                <AboutMe/>
-            </AnimationOnScroll>
-        </>
     )
 }
 
