@@ -1,7 +1,13 @@
 import React from "react";
-import "./title.css";
+import Button from "./button/button"
 import "animate.css";
 
-const navbar = () => {
-    
+const NavBar = () => {
+    return (
+        <div className="navbar__container">
+            <Button/>
+        </div>
+    )
 }
+
+export default NavBar
