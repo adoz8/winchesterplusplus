@@ -1,14 +1,26 @@
 import React from "react";
+import ReactDOM from "react-dom";
+
 import "../Components/ByronComponents/main.css";
-import Introduction from "../Components/ByronComponents/introduction/introduction"
-import NavBar from "../Components/ByronComponents/navbar/navbar"
+import "animate.css";
+
+import { AnimationOnScroll } from "react-animation-on-scroll";
+
+import Introduction from "../Components/ByronComponents/introduction/introduction";
+import NavBar from "../Components/ByronComponents/navbar/navbar";
+import AboutMe from "../Components/ByronComponents/aboutMe/aboutMe";
 
 const Byron = () => {
     return(
-        <div className="page">
-            <NavBar/>
-            <Introduction/>
-        </div>
+        <>
+            <div className="page">
+                <NavBar/>
+                <Introduction/>
+            </div>
+            <AnimationOnScroll className="page" animateIn="animate__animated animate__fadeIn" animateOut="">
+                <AboutMe/>
+            </AnimationOnScroll>
+        </>
     )
 }
 
