@@ -4,7 +4,7 @@ import Title from "../Components/ByronComponents/title"
 
 const Byron = () => {
     return(
-        <div>
+        <div className="page">
             <Title/>
         </div>
     )
