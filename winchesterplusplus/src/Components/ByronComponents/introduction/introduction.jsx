@@ -1,9 +1,8 @@
 import React from "react";
-import "./title.css";
-import "animate.css";
+import "./title/title.css";
 
-import Title from "./title";
-import Description from "./descrption";
+import Title from "./title/title";
+import Description from "./description/descrption";
 
 const Introduction = () =>
 {
