@@ -7,7 +7,9 @@ const Button = () => {
     return(
         <div className="button__home-container">
             <Link to="/">
-                <button className="button__home">Home</button>
+                <button className="button__home">
+                    <span className="button__home-text">Back</span>
+                </button>
             </Link>
         </div>
     )
