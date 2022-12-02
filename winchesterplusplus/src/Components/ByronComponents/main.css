@@ -23,9 +23,10 @@ html,body{
 
 .page {
     background-color: var(--background-color);
-    position: fixed;
+    /* position: fixed; */
+    margin-top: -20px;
     width: 100%;
-    height: 100vh
+    height: 110vh
 }
 
 
