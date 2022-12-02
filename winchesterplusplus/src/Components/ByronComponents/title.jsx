@@ -5,7 +5,7 @@ import "animate.css";
 const Title = () => {
     return(
         <>
-            <div className="title__container">
+            <div className="title__contianer">
                 <div className="title__line-container">
                     <TitleHeader arrayOfLetters={["H", "i", ",", ]}/>
                     <TitleLetterSpace/>

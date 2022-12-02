@@ -1,11 +1,11 @@
 import React from "react";
 import "../Components/ByronComponents/main.css";
-import Title from "../Components/ByronComponents/title"
+import Introduction from "../Components/ByronComponents/introduction"
 
 const Byron = () => {
     return(
         <div className="page">
-            <Title/>
+            <Introduction/>
         </div>
     )
 }
