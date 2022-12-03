@@ -1,10 +1,16 @@
 import React from "react";
 import "./aboutMe.css";
+import { Component } from "react";
+import Carousel from "./carousel/carousel";
 
-const AboutMe = () => {
-    return(
-        <h2 className="aboutMe">About Me....</h2>
-    )
+
+class AboutMe extends Component{
+    render() {
+        return(
+            <Carousel/>    
+        )
+    }
+
 }
 
 export default AboutMe;
