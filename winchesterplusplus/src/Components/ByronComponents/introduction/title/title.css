@@ -28,6 +28,39 @@
     animation-fill-mode: forwards;
 }
 
+.title__Hi{
+    opacity: 0;
+
+    animation: FadeIn linear 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+}
+
+.title__Im{
+    opacity: 0;
+
+    animation: FadeIn linear 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+.title__Name{
+    opacity: 0;
+
+    animation: FadeIn linear 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 1.5s;
+}
+
+@keyframes FadeIn{
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
 @keyframes effect {
     30% {
         transform: scale(1.25, 0.75);

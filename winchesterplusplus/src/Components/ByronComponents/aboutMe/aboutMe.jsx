@@ -7,13 +7,7 @@ const Slide1 = () => {
     return (
         <div className="carousel__item">
             <h1 className="aboutMe__title">About Me</h1> 
-            <h2 className="description">My journey into programing began by tinkering with simple hand tools in the
-                garage building gadgets. Designing things, building them and then getting them
-                to function was the thing that got me up early in the morning and kept me
-                outside until well after dark. Most of the things I made were constructed from
-                simple electronic or mechanical components, some more complex than others, but
-                essentially hand built objects that relied on simple circuits or mechanical
-                parts.
+            <h2 className="description">Some interesting facts about me...
             </h2>
         </div>
     )
