@@ -1,9 +1,3 @@
 .description__container{
     margin-top: 30px;
 }
-
-.description{
-    color: #8d8d8d;
-    letter-spacing: 3px;
-    font-weight: var(--light-weight);
-}

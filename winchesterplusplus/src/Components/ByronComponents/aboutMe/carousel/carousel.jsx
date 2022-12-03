@@ -2,10 +2,11 @@ import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
 import "./carousel.css";
+import LeftArrow from "./LeftArrow.png";
+import RightArrow from "./RightArrow.png";
 
 
 const Carousel = ({ slides }) => {
-    console.log(slides)
     const [currentIndex, setIndex] = useState(0)
 
     if(currentIndex > slides.length - 1)
@@ -19,13 +20,26 @@ const Carousel = ({ slides }) => {
 
     return (
         <div className="carousel__container">
-            <button className="carousel__button-left" onClick={() => setIndex((currentIndex) => currentIndex - 1)}>left</button>
+            <button className="carousel__button">
+                <img onClick={() => {
+                    var carElem = document.querySelector(".carousel__item");
+                    carElem.classList.add("elementToFadeInAndOut");
+                    setTimeout(function(){carElem.classList.remove("elementToFadeInAndOut");}, 1500);
+                    setIndex((currentIndex) => currentIndex - 1)
+                }} className="carousel__button-img" src={LeftArrow} alt="<" width="40" height="40"></img>
+            </button>
                 {(slides[currentIndex] != undefined) ? slides[currentIndex]() : slides[0]()}
-            <button className="carousel__button-right" onClick={() => setIndex((currentIndex) => currentIndex + 1)}>right</button>
+            <button className="carousel__button">
+                <img onClick={() => 
+                    {
+                        var carElem = document.querySelector(".carousel__item");
+                        carElem.classList.add("elementToFadeInAndOut");
+                        setTimeout(function(){carElem.classList.remove("elementToFadeInAndOut");}, 1500);
+                        setIndex((currentIndex) => currentIndex + 1)
+                    }} className="carousel__button-img" src={RightArrow} alt=">" width="40" height="40"></img>
+            </button>
         </div>
-        
     )
-
 }
 
 export default Carousel 
