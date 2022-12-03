@@ -3,33 +3,9 @@ import { useEffect } from "react";
 import { useState } from "react";
 import "./carousel.css";
 
-const Slide1 = () => {
-    return (
-        <>
-            <h1>Slide1</h1> 
-        </>
-    )
-}
 
-const Slide2 = () => {
-    return (
-        <>
-            <h1>Slide2</h1> 
-        </>
-    )
-}
-
-const Slide3 = () => {
-    return(
-        <>
-            <h1>Slide 3</h1>
-        </>
-    )
-}
-
-
-const Carousel = () => {
-    const slides = [<Slide1/>, <Slide2/>, <Slide3/>]
+const Carousel = ({ slides }) => {
+    console.log(slides)
     const [currentIndex, setIndex] = useState(0)
 
     if(currentIndex > slides.length - 1)
@@ -43,9 +19,9 @@ const Carousel = () => {
 
     return (
         <div className="carousel__container">
-            <button onClick={() => setIndex((currentIndex) => currentIndex - 1)}>left</button>
-                {slides[currentIndex]}
-            <button onClick={() => setIndex((currentIndex) => currentIndex + 1)}>right</button>
+            <button className="carousel__button-left" onClick={() => setIndex((currentIndex) => currentIndex - 1)}>left</button>
+                {(slides[currentIndex] != undefined) ? slides[currentIndex]() : slides[0]()}
+            <button className="carousel__button-right" onClick={() => setIndex((currentIndex) => currentIndex + 1)}>right</button>
         </div>
         
     )
