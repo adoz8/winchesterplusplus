@@ -1,4 +1,5 @@
 import React from "react";
+import "./cat.css";
 import './head.css';
 const Head = () => {
     return(
