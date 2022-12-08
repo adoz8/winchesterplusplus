@@ -1,9 +1,9 @@
 import React from "react";
-import "./aboutMe.css";
-
+import { Component } from "react";
+import './head.css';
 const Head = () => {
     return(
-        <h1 className="aboutMe">About Me....</h1>
+        <h1 class="head">About Me....</h1>
     )
 }
 
