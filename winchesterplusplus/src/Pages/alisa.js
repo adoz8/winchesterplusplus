@@ -1,5 +1,5 @@
 import React from "react";
-import Head from "/Components/AlisaComponents/head";
+import Head from "src/Components/AlisaComponents/head";
 
 const Alisa = () => {
     return(
