@@ -7,11 +7,16 @@ const Title = () => {
         <>
             <div className="title__contianer">
                 <div className="title__line-container">
-                    <TitleHeader arrayOfLetters={["H", "i", ",", ]}/>
+                    <div className="title__Hi">
+                        <TitleHeader arrayOfLetters={["H", "i", ",", ]}/>
+                    </div>
                     <TitleLetterSpace/>
-                    <TitleHeader arrayOfLetters={["I", "'", "m"]}/>
+                    <div className="title__Im">
+                        <TitleHeader arrayOfLetters={["I", "'", "m"]}/>
+                    </div>
+
                 </div>
-                <div className="title__line-container">
+                <div className="title__line-container title__Name">
                     <TitleHeader arrayOfLetters={["B", "y", "r", "o", "n"]}/>
                     <TitleLetterSpace/>
                     <TitleHeader arrayOfLetters={["L", "l", "o", "y", "d", "-", "W", "a", "k", "e", "m", "a", "n"]}/>      

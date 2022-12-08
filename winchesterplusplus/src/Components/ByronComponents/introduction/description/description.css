@@ -1,9 +1,9 @@
 .description__container{
     margin-top: 30px;
-}
 
-.description{
-    color: #8d8d8d;
-    letter-spacing: 3px;
-    font-weight: var(--light-weight);
+    opacity: 0;
+
+    animation: FadeIn linear 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
 }

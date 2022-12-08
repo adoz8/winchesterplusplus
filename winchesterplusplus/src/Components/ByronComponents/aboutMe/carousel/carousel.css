@@ -1,0 +1,37 @@
+.carousel__container{
+    width: 100%;
+    height: 110vh;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.carousel__item{
+    width: 100%;
+
+    padding: 50px;
+    padding-left: 80px;
+
+    margin-top: 30px
+}
+
+.carousel__button{
+    background-color: transparent;
+    border: 0;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+.carousel__button-img{
+    filter: invert(100%);
+
+    transition: filter 1s, height 1s, width 1s;
+}
+
+.carousel__button-img:hover{
+    filter: invert(60%) sepia(67%) saturate(1486%) hue-rotate(218deg) brightness(89%) contrast(85%);
+    height: 45px;
+    width: 45px;
+}

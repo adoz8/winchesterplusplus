@@ -17,7 +17,7 @@ const Byron = () => {
                 <NavBar/>
                 <Introduction/>
             </div>
-            <AnimationOnScroll className="page" animateIn="animate__animated animate__fadeIn" animateOut="">
+            <AnimationOnScroll className="page2" animateIn="animate__animated animate__fadeIn" animateOut="">
                 <AboutMe/>
             </AnimationOnScroll>
         </div>
