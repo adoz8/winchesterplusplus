@@ -1,7 +1,7 @@
 import React from "react";
-//import ReactDOM from "react-dom";
+import ReactDOM from "react-dom";
 
-//import "../Components/ByronComponents/main.css";
+import "../Components/ByronComponents/main.css";
 import "animate.css";
 
 import { AnimationOnScroll } from "react-animation-on-scroll";
