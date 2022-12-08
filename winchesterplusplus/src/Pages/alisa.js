@@ -1,5 +1,5 @@
 import React from "react";
-import Head from "winchesterplusplus/src/Components/AlisaComponents/head.jsx;"; 
+import Head from "/Components/AlisaComponents/head";
 
 const Alisa = () => {
     return(
