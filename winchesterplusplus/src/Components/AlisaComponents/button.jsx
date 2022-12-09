@@ -1,11 +1,11 @@
 import React from "react";
 import './button.css';
-import "./Cat.jpg"
+import Cat from "./Cat.jpg"
 const Button = () => {
     return(
         <div class="container">
             <h1>Cat</h1>
-            <img alt="Cat" src ="../Cat.jpg"/>
+            <img alt="Cat" src ={Cat}/>
         </div>
     )
 }
