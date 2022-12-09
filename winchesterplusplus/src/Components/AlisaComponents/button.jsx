@@ -5,7 +5,7 @@ const Button = () => {
     return(
         <div class="container">
             <h1>Cat</h1>
-            <img alt="Cat" src ={Cat}/>
+            <img calss = "ct" alt="Cat" src ={Cat}/>
         </div>
     )
 }

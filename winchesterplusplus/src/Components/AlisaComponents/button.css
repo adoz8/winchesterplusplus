@@ -16,7 +16,7 @@
     height: 300px;
   }
   
-  .container>div a{
+  .container>div img{
     color: #F7FFF7;
     /* background: hsl(210,22%,40%); */
     padding:8px;
@@ -29,7 +29,7 @@
     text-decoration: none;
   }
   
-  .container>div a:hover{
+  .container>div img:hover{
       color: #F7FFF7;
       /* background: hsl(210,22%,40%); */
       padding:8px;
