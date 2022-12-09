@@ -6,7 +6,7 @@
     align-content: space-between;
   }
   
-  .container>div {
+.container>div {
     color: #F7FFF7;
     background: hsl(210,22%,40%);
     padding:8px;
@@ -14,10 +14,10 @@
     margin: 30px;
     width: 350px;
     height: 300px;
-  }
+}
   
-  .container>div img{
-    color: #F7FFF7;
+.container>div img{
+  color: #F7FFF7;
     /* background: hsl(210,22%,40%); */
     padding:8px;
     border-radius: 4px;
@@ -27,9 +27,9 @@
     font-weight: bold;
     text-shadow: 4px white;
     text-decoration: none;
-  }
+}
   
-  .container>div img:hover{
+.container>div img:hover{
       color: #F7FFF7;
       /* background: hsl(210,22%,40%); */
       padding:8px;
@@ -40,7 +40,7 @@
       margin: auto;
       text-shadow: 2px white;
   }
-  .container>div a img{
+.container>div a img{
     width: 75%;
     height: 150%;
     /* display: block; */
@@ -49,7 +49,7 @@
     border-radius: 4px;
   }
   
-  .container>div a:hover img{
+.container>div a:hover img{
     width: 85%;
     height: 550px;
     /* display: block; */
