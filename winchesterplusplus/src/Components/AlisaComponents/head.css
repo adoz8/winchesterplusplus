@@ -22,3 +22,13 @@ header{
   header h2{
     color:white;
   }
+
+  h1{
+    font-family: "Copperplate",fantasy;
+    text-align: center;
+  }
+  
+  h2{
+    font-family: "Monaco",monospace;
+    text-align: center;
+  }
