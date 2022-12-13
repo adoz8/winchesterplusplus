@@ -1,21 +1,20 @@
 import React from "react";
 import Head from "../Components/AlisaComponents/head";
-import Button from "../Components/AlisaComponents/button"
-import Paws from "../Components/AlisaComponents/paws";
+import Button from "../Components/AlisaComponents/button";
+import Paws from "../Components/AlisaComponents/catpawsnew";
 
 const Alisa = () => {
-    return(
-        <div>
-            <div>
-                <Head/>
-            </div>
-            <div>
-                <Button/>
-                <Paws/>
-            </div>
-        </div>
-        
-    )
-}
+  return (
+    <div>
+      <div>
+        <Head />
+      </div>
+      <div>
+        <Button />
+        <Paws />
+      </div>
+    </div>
+  );
+};
 
 export default Alisa;
