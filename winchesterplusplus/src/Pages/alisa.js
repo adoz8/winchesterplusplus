@@ -9,16 +9,10 @@ const Alisa = () => {
     <div>
       <div>
         <Paws />
+        <Button />
       </div>
       <div>
-        {/* <Button /> */}
-        <AnimationOnScroll
-          className="page2"
-          animateIn="animate__animated animate__fadeIn"
-          animateOut=""
-        >
-          <Button />
-        </AnimationOnScroll>
+        <Button />
       </div>
     </div>
   );
