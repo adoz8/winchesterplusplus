@@ -1,10 +1,18 @@
 import React from "react";
+import Head from "../Components/AlisaComponents/head";
+import Button from "../Components/AlisaComponents/button"
 
 const Alisa = () => {
     return(
         <div>
-            <h1>Alisa's page</h1>
+            <div>
+                <Head/>
+            </div>
+            <div>
+                <Button/>
+            </div>
         </div>
+        
     )
 }
 
