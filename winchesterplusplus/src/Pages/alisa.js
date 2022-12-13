@@ -11,7 +11,7 @@ const Alisa = () => {
       </div>
       <div>
         <Button />
-        {/* <Paws /> */}
+        <Paws />
       </div>
     </div>
   );
