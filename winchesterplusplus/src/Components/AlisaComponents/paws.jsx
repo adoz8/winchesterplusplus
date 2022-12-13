@@ -5,7 +5,7 @@ const Paws = () =>{
     //eslint-disable-next-line
     CatHands.start(document.body, {
 
-        title: 'Click & Hold'
+        title: 'this is a cat'
     });
 }
 
