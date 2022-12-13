@@ -1,3 +1,4 @@
+import CatHands from "../Components/AlisaComponents/catpawsnew";
 <>
   <meta charSet="UTF-8" />
   <title>CodePen - Cat Hands</title>
