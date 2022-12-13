@@ -1,4 +1,4 @@
-import "https://s3-us-west-2.amazonaws.com/s.cdpn.io/59639/bundle_copy.js";
+import "../pawscode";
 
 
 const Paws = () =>{
