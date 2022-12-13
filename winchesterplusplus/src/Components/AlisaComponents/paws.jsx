@@ -1,4 +1,5 @@
 import "../pawscode";
+import "./paws.css";
 
 
 const Paws = () =>{
