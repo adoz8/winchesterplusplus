@@ -1,5 +1,7 @@
 import React from "react";
-
+{/* <head>
+<title> Rachitha's Page🧘‍♀️</title>
+</head> */}
 const Rachitha = () => {
     return(
         <div>

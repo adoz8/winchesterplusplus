@@ -5,6 +5,9 @@
     --tertiary-color: #8d8d8d;
     --bold-weight: 600;
     --light-weight: 300;
+    --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
 }
 
 html,body{
@@ -21,6 +24,9 @@ html,body{
     color: #8d8d8d;
     letter-spacing: 3px;
     font-weight: var(--light-weight);
+
+    font-family: var(--font-family);
+    text-align: left;
 }
 
 .main-page {
