@@ -1,7 +1,8 @@
 import React from "react";
-import Head from "../Components/AlisaComponents/head";
-import Button from "../Components/AlisaComponents/button";
-// import Paws from "../Components/AlisaComponents/paws";
+// import Head from "../Components/AlisaComponents/head";
+import Button from "../Components/AlisaComponents/continue/button";
+import Paws from "../Components/AlisaComponents/paws";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const Alisa = () => {
   return (
@@ -11,7 +12,13 @@ const Alisa = () => {
       </div>
       <div>
         {/* <Button /> */}
-        <Button />
+        <AnimationOnScroll
+          className="page2"
+          animateIn="animate__animated animate__fadeIn"
+          animateOut=""
+        >
+          <Button />
+        </AnimationOnScroll>
       </div>
     </div>
   );
