@@ -14,14 +14,18 @@ const Byron = () => {
   return (
     <div className="main-page">
       <div className="page">
-                <NavBar/>
-                <Introduction/>
-            </div>
-            <AnimationOnScroll className="page2" animateIn="animate__animated animate__fadeIn" animateOut="">
-                <AboutMe/>
-            </AnimationOnScroll>
-        </div>
-    )
-}
+        <NavBar />
+        <Introduction />
+      </div>
+      <AnimationOnScroll
+        className="page2"
+        animateIn="animate__animated animate__fadeIn"
+        animateOut=""
+      >
+        <AboutMe />
+      </AnimationOnScroll>
+    </div>
+  );
+};
 
 export default Byron;

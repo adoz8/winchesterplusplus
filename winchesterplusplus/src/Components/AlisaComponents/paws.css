@@ -6,7 +6,7 @@ body {
 body {
     font-size: 60px;
     font-weight: 900;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .container {

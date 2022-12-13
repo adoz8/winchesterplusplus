@@ -12,7 +12,8 @@ const Alisa = () => {
       </div>
       <div>
         {/* <Button /> */}
-        <AnimationOnScroll className="page2"
+        <AnimationOnScroll
+          className="page2"
           animateIn="animate__animated animate__fadeIn"
           animateOut=""
         >
