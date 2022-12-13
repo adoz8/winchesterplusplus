@@ -7,11 +7,11 @@ const Alisa = () => {
   return (
     <div>
       <div>
-        <Head />
+        <Paws />
       </div>
       <div>
+        {/* <Button /> */}
         <Button />
-        <Paws />
       </div>
     </div>
   );
