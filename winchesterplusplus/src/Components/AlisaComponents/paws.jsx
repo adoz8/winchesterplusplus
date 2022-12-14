@@ -11,12 +11,6 @@ const Paws = () =>{
         title: "this is Alisa's page"
 
     });
-    <div class="button_container">
-            <div>
-            <h1>Cat</h1>
-            <img class = "ct" alt="Cat" src ={Cat}/>
-            </div>
-        </div>
 }
 
 
