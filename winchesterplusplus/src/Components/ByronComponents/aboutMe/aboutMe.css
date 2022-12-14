@@ -5,3 +5,26 @@
     font-family: var(--font-family);
     text-align: left;
 }
+
+.aboutMe__list-items{
+    font-size: 2rem;
+}
+
+.freya__img{
+    max-width: 312px;
+    max-height: 416px;
+
+    border: 10px solid var(--secondary-color);
+    border-radius: 50px;
+
+    margin-top: 70px;
+}
+
+.map-img__container{
+    display: flex;
+    justify-content: left;
+}
+
+.map__img{
+    margin: 50px;
+}

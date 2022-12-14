@@ -2,7 +2,7 @@ import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
 import "./carousel.css";
-//import "C:/Users/lloydwakemab/Documents/GitHub/winchesterplusplus/winchesterplusplus/src/Components/ByronComponents/main.css";
+import "../.././main.css";
 import LeftArrow from "./LeftArrow.png";
 import RightArrow from "./RightArrow.png";
 
