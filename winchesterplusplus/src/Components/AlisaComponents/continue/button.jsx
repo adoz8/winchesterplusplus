@@ -6,7 +6,7 @@ import Games from "./games.jpg"
 import Arch from "./Arch2.jpg"
 const Catton = () => {
     return(
-        <div class="button_container">ss
+        <div class="button_container">
             <div>
                 <a href="https://www.w3schools.com/Css/css_link.asp"><img class = "ct" alt="Architecture"src={Arch} /></a>
             </div>

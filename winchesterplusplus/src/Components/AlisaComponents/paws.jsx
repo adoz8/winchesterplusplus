@@ -8,7 +8,7 @@ const Paws = () =>{
     //eslint-disable-next-line
     CatHands.start(document.body, {
 
-        title: "this is Alisa's page"
+        title: "Welcome to Alisa's page!"
 
     });
 }
