@@ -1,11 +1,20 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
+import '../Components/SalmahComponents/MainStyleSheet.css';
 
+import '../Components/SalmahComponents/ColourSwitch/colour-switch';
+import '../Components/SalmahComponents/TypeAnimation/TypeAnimation';
+import TypeAnimation from "../Components/SalmahComponents/TypeAnimation/TypeAnimation";
+import ColourSwitcher from "../Components/SalmahComponents/ColourSwitch/colour-switch";
 
 
 const Salmah = () => {
     return(
         <div className="salmah-page">
-            <h1>Salmah's page</h1>
+            <ColourSwitcher />
+            <div className="Intro">
+                <TypeAnimation />
+            </div>
         </div>
     )
 }
