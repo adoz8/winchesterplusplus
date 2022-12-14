@@ -1,5 +1,5 @@
 .head{
-    color: hsl(37, 1%, 15%);
+    color: gray;
     font-size: 10rem;
 }
 header{
@@ -10,7 +10,7 @@ header{
   }
   
   header h1 {
-    background: hsl(37, 1%, 15%);
+    background: hsl(37, 0%, 15%);
     color: hsl(37, 80%, 65%);
     width: 500px;
     font-family: "Times New Roman", Times, serif;

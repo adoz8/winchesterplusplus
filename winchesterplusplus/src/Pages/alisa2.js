@@ -7,11 +7,11 @@ import "../Components/AlisaComponents/continue/cont.css";
 
 const Alisa2 = () => {
   return (
-    <div className="page2">
+    <div className="page2A">
       <div id="else">
         <Head />
       </div>
-      <div id="page2">
+      <div id="page2A">
         <Catton />
       </div>
       <div>{/* <Artton /> */}</div>
