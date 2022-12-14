@@ -5,7 +5,6 @@
     transition: 0.3s;
     animation: ease-in;
     display: grid;
-    align-items: center;
 }
 
 .card-container:hover{
