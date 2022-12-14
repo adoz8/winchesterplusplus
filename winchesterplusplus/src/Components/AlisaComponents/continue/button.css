@@ -21,8 +21,7 @@
     /* background: hsl(210,22%,40%); */
     padding:8px;
     border-radius: 4px;
-    width: 400px;
-    height: 500px;
+    size:10%;
     font-family: "Monaco",monospace;
     font-weight: bold;
     text-shadow: 4px white;
