@@ -1,5 +1,7 @@
 import "../pawscode";
 import "./paws.css";
+import './continue/button.css';
+import Cat from "./continue/Cat.jpg"
 
 
 const Paws = () =>{
@@ -7,7 +9,9 @@ const Paws = () =>{
     CatHands.start(document.body, {
 
         title: "this is Alisa's page"
+
     });
 }
+
 
 export default Paws;
