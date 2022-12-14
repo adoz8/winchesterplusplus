@@ -2,6 +2,10 @@
     padding: top 50px;
     display: flex;
     flex-direction: row;
+    
+}
+
+.animated_typing{
     font-family: system-ui;
     font-size: 300px;
     text-align: center;
