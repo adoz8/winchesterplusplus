@@ -2,8 +2,7 @@
 import React from "react";
 import '../Components/SalmahComponents/MainStyleSheet.css';
 
-import '../Components/SalmahComponents/ColourSwitch/colour-switch';
-import '../Components/SalmahComponents/TypeAnimation/TypeAnimation';
+import Button from "../Components/SalmahComponents/BackButton/BackButton";
 import TypeAnimation from "../Components/SalmahComponents/TypeAnimation/TypeAnimation";
 import ColourSwitcher from "../Components/SalmahComponents/ColourSwitch/colour-switch";
 
@@ -11,9 +10,10 @@ import ColourSwitcher from "../Components/SalmahComponents/ColourSwitch/colour-s
 const Salmah = () => {
     return(
         <div className="salmah-page">
-            <ColourSwitcher />
             <div className="Intro">
-                <TypeAnimation />
+                <Button />
+                <ColourSwitcher />
+                <TypeAnimation /> 
             </div>
         </div>
     )
