@@ -1,28 +1,23 @@
-import React from 'react'
-import './card.css'
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './card.css';
+import {Card} from 'react-bootstrap';
 
-function Card({title,imageURL,body}) {
-  return (
-    <div className="card-container">
-      <div className="card">
-        <div className="image-container">
-              <img src={imageURL} alt=""/>
-          </div>
-              <div className="card-content">
-              <div className="card-title">
-                  <h3>{title}</h3>
-              </div>
-              <div className="card-body">
-                  <p>{body}</p>
-          </div>
+const card = () => {
+  return ( 
+  <div className='card-container'>
+    <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+      </Card.Body>
+    </Card>
+  </div>
+  );
+};
 
-          </div>
-      </div>
-
-        
-    </div>
-  )
-}
-
-export default Card;
-
+export default card;

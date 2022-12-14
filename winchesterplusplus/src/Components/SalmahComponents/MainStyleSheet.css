@@ -7,8 +7,6 @@ so that specific vlaues can be reused throughought the document*/
     --primary-color: #0B4F6C;
     --secondary-color: #145C9E;
     --tertiary-color: #CBB9A8;
-    --bold-weight: 600;
-    --light-weight: 300;
     --font-family: Roboto Mono, monospace;
 }
 
