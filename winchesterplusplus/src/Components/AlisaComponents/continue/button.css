@@ -8,20 +8,20 @@
   
 .button_container>div {
     color: #F7FFF7;
-    background: hsl(210,22%,40%);
+    background: hsl(37, 75%, 57%);
     padding:8px;
     border-radius: 4px;
     margin: 30px;
-    width: 350px;
+    width: 300px;
     height: 300px;
 }
   
 .button_container>div img{
-  color: #F7FFF7;
+    color: #F7FFF7;
     /* background: hsl(210,22%,40%); */
     padding:8px;
     border-radius: 4px;
-    size:10%;
+    height:350px;
     font-family: "Monaco",monospace;
     font-weight: bold;
     text-shadow: 4px white;
@@ -33,15 +33,15 @@
       /* background: hsl(210,22%,40%); */
       padding:8px;
       border-radius: 4px;
-      width: 400px;
-      height: 300px;
+      height: 400px;
       /* display: inline-block; */
       margin: auto;
       text-shadow: 2px white;
   }
 .button_container>div a img{
-    width: 75%;
-    height: 150%;
+    /* width: 75%; */
+    justify-content: center;
+    height:350px;
     /* display: block; */
     margin: 20px auto auto auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -49,8 +49,7 @@
   }
   
 .button_container>div a:hover img{
-    width: 85%;
-    height: 550px;
+    height: 400px;
     /* display: block; */
     margin: 20px auto auto auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

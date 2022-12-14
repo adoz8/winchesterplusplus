@@ -1,17 +1,19 @@
 .head{
-    color: white;
+    color: hsl(37, 1%, 15%);
     font-size: 10rem;
 }
 header{
-    background-color:rgb(112,128,144);
+    background-color:hsl(37, 75%, 57%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 50px;
     margin: auto;
   }
   
   header h1 {
-    background: white;
+    background: hsl(37, 1%, 15%);
+    color: hsl(37, 80%, 65%);
     width: 500px;
+    font-family: "Times New Roman", Times, serif;
     margin:auto;
     padding:8px;
     border-radius: 4px;
@@ -20,7 +22,7 @@ header{
   }
   
   header h2{
-    color:white;
+    color:hsl(37, 75%, 57%);
   }
 
   h1{

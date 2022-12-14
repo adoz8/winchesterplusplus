@@ -1,9 +1,20 @@
 import React from "react";
+import Head from "../Components/AlisaComponents/head";
+import Catton from "../Components/AlisaComponents/continue/button";
+import Artton from "../Components/AlisaComponents/continue/artton";
+import { AnimationOnScroll } from "react-animation-on-scroll";
+import "../Components/AlisaComponents/continue/cont.css";
 
 const Alisa2 = () => {
   return (
-    <div>
-      <h1>Alisa new page</h1>
+    <div className="page2">
+      <div id="else">
+        <Head />
+      </div>
+      <div id="page2">
+        <Catton />
+      </div>
+      <div>{/* <Artton /> */}</div>
     </div>
   );
 };

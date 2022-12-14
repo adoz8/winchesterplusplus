@@ -6,7 +6,11 @@ body {
 body {
     /* font-size: 60px; */
     font-weight: 900;
+    font-family: "Times New Roman", Times, serif;
     /* overflow: hidden; */
+}
+.title{
+    font-size: 60px
 }
 
 .container {
