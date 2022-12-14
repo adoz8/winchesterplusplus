@@ -1,11 +1,12 @@
 .card-container{
-    width: 300px;
+    width: 200px;
     overflow: hidden;
     box-shadow: 0px 0px 15px -5px;
     transition: 0.3s;
     animation: ease-in;
     display: flex;
     flex-direction: row;
+    flex: 1;
 }
 
 .card-container:hover{
@@ -15,7 +16,7 @@
 
 .image-container{
     overflow: hidden;
-    height: 200px;
+    height: 100px;
 }
 
 .card-content{
