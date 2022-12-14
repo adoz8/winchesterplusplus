@@ -1,0 +1,14 @@
+/* --proprty = CSS custom properties, that are defined 
+so that specific vlaues can be reused throughought the document*/
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap");
+:root {
+    --main-bg-color: #1F271B;
+    --primary-color: #0B4F6C;
+    --secondary-color: #145C9E;
+    --tertiary-color: #CBB9A8;
+    --bold-weight: 600;
+    --light-weight: 300;
+    --font-family: Roboto Mono, monospace;
+}
+
