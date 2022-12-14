@@ -4,8 +4,6 @@
 
     display: flex;
     flex-direction: row;
-
-
 }
 
 .carousel__item{
@@ -13,6 +11,7 @@
 
     padding: 50px;
     padding-left: 80px;
+    padding-top: 80px;
     margin-top: 30px;
 
 }
