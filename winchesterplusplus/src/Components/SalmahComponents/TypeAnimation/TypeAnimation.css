@@ -1,0 +1,5 @@
+.animated_typing span{
+    padding: top 50px;
+    display: flex;
+    flex-direction: row;
+}
