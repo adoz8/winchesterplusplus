@@ -12,8 +12,8 @@ const Salmah = () => {
     return(
         <div className="salmah-page">
             <div className="Intro">
-                <TypeAnimation />
                 <ColourSwitcher />
+                <TypeAnimation /> 
             </div>
         </div>
     )
