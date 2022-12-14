@@ -11,9 +11,9 @@ import ColourSwitcher from "../Components/SalmahComponents/ColourSwitch/colour-s
 const Salmah = () => {
     return(
         <div className="salmah-page">
-            <ColourSwitcher />
             <div className="Intro">
                 <TypeAnimation />
+                <ColourSwitcher />
             </div>
         </div>
     )
