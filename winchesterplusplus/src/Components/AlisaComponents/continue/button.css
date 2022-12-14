@@ -1,4 +1,4 @@
-.container{
+.button_container{
     display: flex;
     flex-direction: row;
     /* background-color: black; */
@@ -6,7 +6,7 @@
     align-content: space-between;
   }
   
-.container>div {
+.button_container>div {
     color: #F7FFF7;
     background: hsl(210,22%,40%);
     padding:8px;
@@ -16,7 +16,7 @@
     height: 300px;
 }
   
-.container>div img{
+.button_container>div img{
   color: #F7FFF7;
     /* background: hsl(210,22%,40%); */
     padding:8px;
@@ -29,7 +29,7 @@
     text-decoration: none;
 }
   
-.container>div img:hover{
+.button_container>div img:hover{
       color: #F7FFF7;
       /* background: hsl(210,22%,40%); */
       padding:8px;
@@ -40,7 +40,7 @@
       margin: auto;
       text-shadow: 2px white;
   }
-.container>div a img{
+.button_container>div a img{
     width: 75%;
     height: 150%;
     /* display: block; */
@@ -49,7 +49,7 @@
     border-radius: 4px;
   }
   
-.container>div a:hover img{
+.button_container>div a:hover img{
     width: 85%;
     height: 550px;
     /* display: block; */

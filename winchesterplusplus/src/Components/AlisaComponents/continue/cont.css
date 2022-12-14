@@ -1,0 +1,7 @@
+.page2 
+{
+    background-color: var(--background-color);
+    /* position: fixed; */
+    margin-top: -20px;
+    width: 100%;
+}
