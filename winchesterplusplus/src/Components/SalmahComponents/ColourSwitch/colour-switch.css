@@ -1,7 +1,7 @@
-.background-red {
-    background-color: red;
+.default {
+    background-color: lightcoral;
 }
 
-.backgound-blue {
-    background-color: blue;
+.success {
+    background-color: azure;
 }

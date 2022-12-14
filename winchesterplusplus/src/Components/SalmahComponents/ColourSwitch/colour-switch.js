@@ -1,12 +1,19 @@
 /* eslint-disable no-unused-vars */
- import React from 'react'
+ import React, {useState} from 'react'
+ //This is a hook that allows us to track state in a function component
  import "./colour-switch.css";
 
  function ColourSwitcher() {
-    const isBackgroundRed = true;
+    const [active, setActive] = useState(false);
+
+    const handleClick = () => {
+        setActive(!active);
+    };
 
     return (
-        <div className={isBackgroundRed ? 'background-red' : 'backgroun-blue'} /> 
+        <div onClick={handleClick} style={{ backgroundColor: active ? "default" : "success"}}>
+            <h1>Salmah Shiham Abdulwahid</h1>
+        </div>
     );
 
  }
