@@ -2,12 +2,12 @@ import React from "react";
 import "./css/style.css";
 import "./css/button.css";
 
-const Rachitha = () =>
+const Name = () =>
 {
     return(
-        <div classname='gradient-animation'>
+        <div>
             <h1>Hi My name is Rachitha</h1>
         </div>
     );
 }
-export default Rachitha;
+export default Name;

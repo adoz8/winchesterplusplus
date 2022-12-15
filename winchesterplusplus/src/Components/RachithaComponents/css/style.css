@@ -1,5 +1,7 @@
 .gradient-animation {
 
+    display: flex;
+
     width: 100wh;
 
     height: 100vh;
@@ -124,7 +126,7 @@
 
   
 
-  button {
+  /* button {
 
     font-family: 'Open Sans';
 
@@ -140,4 +142,4 @@
 
     left: 48%;
 
-  }
+  } */
