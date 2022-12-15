@@ -7,10 +7,7 @@ const Slide1 = () => {
             <ul className="description aboutMe__list-items">
                 <li>I'm 39</li>
                 <li>Originally from Sri Lanka</li>
-                {/* <li>Worked at two warehouses before Fujitsu (glad to be here)</li> */}
-                {/* <div className="map-img__container">
-                    <Map/>
-                </div> */}
+
             </ul>
         </div>
     )
