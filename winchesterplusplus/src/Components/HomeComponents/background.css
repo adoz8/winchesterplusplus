@@ -1,0 +1,13 @@
+.home-background__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    background-image: url("./park.svg");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+
+    overflow-x: hidden;
+}
