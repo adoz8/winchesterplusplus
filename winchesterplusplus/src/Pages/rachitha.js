@@ -7,6 +7,7 @@ import Flower from "../Components/RachithaComponents/flower2";
 import "../Components/RachithaComponents/css/style.css";
 import Happy from "../Components/RachithaComponents/happy";
 import Potty from "../Components/RachithaComponents/potplant";
+import Rachiname from "../Components/RachithaComponents/name";
 
 // import NavBar from "../Components/ByronComponents/navbar/navbar";
 // import About from "../Components/RachithaComponents/About";
@@ -28,8 +29,8 @@ const Rachitha = () => {
 //     // </main>
          <div className="gradient-animation">
             <Happy/>
-            {/* <Name/> */}
-            {/* <Potty/> */}
+            <Rachiname/>
+                           {/* <Potty/> */}
             <Flower/>
 
          </div>
