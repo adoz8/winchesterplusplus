@@ -11,16 +11,16 @@ const Home = () => {
   return (
     <div className="home-background__container">
       {/* <Link to="/alisa">Alisa's page</Link>
-            <br/>
-            <Link to="/byron">Byron's page</Link>
-            <br/>
-            <Link to="/rachitha">Rachitha's page</Link>
-            <br/>
-            <Link to="/salmah">Salmah's page</Link> */}
+        <br/>
+        <Link to="/byron">Byron's page</Link>
+        <br/>
+        <Link to="/rachitha">Rachitha's page</Link>
+        <br/>
+        <Link to="/salmah">Salmah's page</Link> */}
+      <SpinningSun />
       <StandingDog />
       <WalkingCat />
-      <SpinningSun />
-      // <sunflower2 />
+
     </div>
   );
 };
