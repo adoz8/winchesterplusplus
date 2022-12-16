@@ -15,7 +15,7 @@ const About = () => {
                 <li>I'm 39</li>
                 <li>Originally from Sri Lanka</li>
 
-            </ul>
+           
         </div>
     );
 }
