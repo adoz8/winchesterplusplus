@@ -13,11 +13,18 @@ import Navigationbar from "../Components/SalmahComponents/Navigation/Navbar";
 const Salmah = () => {
   return (
     <div className="SalmahPage">
-      <div className="PagePart1">
-        <Navigationbar />
+      <div className="Navigation">
+        <Router>
+          <Navigationbar />
+          <Switch>
+            <Route exact path="/" component={Home}/>
+          </Switch>
+        </Router> 
+      </div>
+      <div>
         <ColourSwitcher />
         <TypeAnimation />
-      </div>
+        </div>
     </div>
   );
 };
