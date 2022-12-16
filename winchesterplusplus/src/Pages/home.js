@@ -17,11 +17,12 @@ const Home = () => {
             <Link to="/rachitha">Rachitha's page</Link>
             <br/>
             <Link to="/salmah">Salmah's page</Link> */}
-            <SpinningSun />
-            <StandingDog/>
-            <WalkingCat/>
-            {/* // <sunflower2/> */}
-            
-        </div>
-    )
-}
+      <StandingDog />
+      <WalkingCat />
+      <SpinningSun />
+      // <sunflower2 />
+    </div>
+  );
+};
+
+export default Home;
