@@ -4,6 +4,7 @@ import Catton from "../Components/AlisaComponents/continue/button";
 import Artton from "../Components/AlisaComponents/continue/artton";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import "../Components/AlisaComponents/continue/cont.css";
+import Backtton from "../Components/AlisaComponents/continue/backtton.jsx";
 
 const Alisa2 = () => {
   return (
@@ -14,6 +15,7 @@ const Alisa2 = () => {
       <div id="page2A">
         <Catton />
       </div>
+      <Backtton />
       <div>{/* <Artton /> */}</div>
     </div>
   );

@@ -6,7 +6,7 @@ const Potty = () =>
 {
     return(
         <div className="growing">
-            <Link to="/rachitha2">
+            <Link to="/rachitha">
                 <div id=".growing"/>
             </Link>
         </div>
