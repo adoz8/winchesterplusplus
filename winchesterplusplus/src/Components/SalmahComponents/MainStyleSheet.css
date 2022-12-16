@@ -12,4 +12,6 @@ so that specific vlaues can be reused throughought the document*/
 
 .SalmahPage {
     background-color: var(--main-bg-color);
+    height: 100vh;
 }
+
