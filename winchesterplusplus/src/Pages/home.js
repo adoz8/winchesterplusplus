@@ -19,6 +19,7 @@ const Home = () => {
             <Link to="/salmah">Salmah's page</Link> */}
       <StandingDog />
       <WalkingCat />
+      <SpinningSun />
       // <sunflower2 />
     </div>
   );
