@@ -103,27 +103,22 @@
 
   }
 
-  
 
-  h1,
+.rachitha-text{
+  font-family: 'Open Sans';
 
-  h6 {
+  font-weight: 300;
 
-    font-family: 'Open Sans';
+  text-align: center;
 
-    font-weight: 300;
+  position: absolute;
 
-    text-align: center;
+  top: 45%;
 
-    position: absolute;
+  right: 0;
 
-    top: 45%;
-
-    right: 0;
-
-    left: 0;
-
-    }
+  left: 0;
+}
 
   
 

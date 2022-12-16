@@ -4,6 +4,8 @@
 
     font-family: var(--font-family);
     text-align: left;
+    margin: 50px;
+    margin-left: 0;
 }
 
 .aboutMe__list-items{
