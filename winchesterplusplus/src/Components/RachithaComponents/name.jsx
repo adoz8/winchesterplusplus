@@ -2,12 +2,12 @@ import React from "react";
 import "./css/style.css";
 import "./css/buttonfun.css";
 
-const Name = () =>
+const Rachiname = () =>
 {
     return(
         <div>
-            <h1>Hi My name is Rachitha</h1>
+            <h1 className="rachiname">Hi My name is Rachitha</h1>
         </div>
     );
 }
-export default Name;
+export default Rachiname;
