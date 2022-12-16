@@ -7,7 +7,7 @@ body {
     /* font-size: 60px; */
     font-weight: 900;
     /* overflow: hidden; */
-    background-color:hsl(37, 0%, 15%)
+    background-color:hsl(37, 0%, 15%);
 }
 .title{
     font-size: 60px;
@@ -24,6 +24,7 @@ body {
     justify-content: center;
     position: relative;
     user-select: none;
+    background-color:hsl(37, 0%, 15%);
 }
 
 .line {

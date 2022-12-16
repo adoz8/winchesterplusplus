@@ -1,12 +1,15 @@
 .head{
     color: gray;
     font-size: 10rem;
+    position: fixed;
 }
 header{
     background-color:hsl(37, 75%, 57%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 50px;
     margin: auto;
+    position: relative;
+    
   }
   
   header h1 {
