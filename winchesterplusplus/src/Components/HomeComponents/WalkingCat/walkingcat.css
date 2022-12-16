@@ -9,6 +9,12 @@
     animation: sprite-animation 1.2s steps(16,end) infinite, CatWalk linear 10s infinite;
     }
 
+.gato__link{
+    width: 508px;
+    height: 297px;
+}
+
+
 @-webkit-keyframes sprite-animation { 
         from { background-position: 0 0; }
         to { background-position: -8120px 0; } 
