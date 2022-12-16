@@ -5,7 +5,7 @@ import React from 'react'
 function Button() {
   return (
     <div>
-        <Link to="/home">
+        <Link to="/">
             <button>Back</button>
         </Link>
     </div>
