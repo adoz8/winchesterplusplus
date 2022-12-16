@@ -31,6 +31,7 @@ const Rachitha = () => {
             {/* <Name/> */}
             {/* <Potty/> */}
             <Flower/>
+
          </div>
     );
  }
