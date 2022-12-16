@@ -1,7 +1,7 @@
 import React from "react";
 import "./css/sunflower.css";
 
-const sunflower2 = () =>
+const Sunflower2 = () =>
 {
     return (
         <div id="position" class="sunflower">
@@ -17,7 +17,7 @@ const sunflower2 = () =>
 	        </div>
 	        <div class="vase"></div>
         </div>
-    );
+    )
 
 }
-export default sunflower2;
+export default Sunflower2;
