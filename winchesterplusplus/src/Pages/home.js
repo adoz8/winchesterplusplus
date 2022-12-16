@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom"
 
 import "../Components/HomeComponents/background.css";
+import StandingDog from "../Components/HomeComponents/StandingDog/standingdog";
 import WalkingCat from "../Components/HomeComponents/WalkingCat/walkingcat";
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
             <Link to="/rachitha">Rachitha's page</Link>
             <br/>
             <Link to="/salmah">Salmah's page</Link> */}
+            <StandingDog/>
             <WalkingCat/>
         </div>
     )
