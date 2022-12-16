@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./css/button.css";
+import "./css/buttonfun.css";
 
 const Happy = () =>
 {
     return(
         <div>
             <Link to= "/">
-                <button>Back</button>
+                <button className="buttonfun">Back</button>
             </Link>
         </div>
     );
