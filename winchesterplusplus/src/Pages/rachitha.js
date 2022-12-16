@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom"
 import Name from "../Components/RachithaComponents/name";
 import button2 from "../Components/RachithaComponents/happy";
+import Flower from "../Components/RachithaComponents/flower2";
 
 import "../Components/RachithaComponents/css/style.css";
 import Happy from "../Components/RachithaComponents/happy";
@@ -27,8 +28,10 @@ const Rachitha = () => {
 //     // </main>
          <div className="gradient-animation">
             <Happy/>
-            <Name/>
-            <Potty/>
+            {/* <Name/> */}
+            {/* <Potty/> */}
+            <Flower/>
+
          </div>
     );
  }

@@ -4,9 +4,12 @@ so that specific vlaues can be reused throughought the document*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap");
 :root {
     --main-bg-color: #1F271B;
-    --primary-color: #0B4F6C;
-    --secondary-color: #145C9E;
-    --tertiary-color: #CBB9A8;
-    --font-family: Roboto Mono, monospace;
+    --second-bg-colour: #0B4F6C;
+    --third-bg-color: #145C9E;
+    --fourth-bg-color: #CBB9A8;
+    --font: Roboto Mono, monospace;
 }
 
+.SalmahPage {
+    background-color: var(--main-bg-color);
+}

@@ -3,21 +3,20 @@
 import React from "react";
 import "../Components/SalmahComponents/MainStyleSheet.css";
 
-import Button from "../Components/SalmahComponents/BackButton/BackButton";
+
+//import Home from "./Pages/home";
 import TypeAnimation from "../Components/SalmahComponents/TypeAnimation/TypeAnimation";
 import ColourSwitcher from "../Components/SalmahComponents/ColourSwitch/colour-switch";
-// import Card from "../Components/SalmahComponents/Card/card";
+import 'bootstrap/dist/css/bootstrap.min.css';
+//import Navigationbar from "../Components/SalmahComponents/Navigation/Navbar";
+
 
 const Salmah = () => {
   return (
     <div className="SalmahPage">
-      <div className="Intro">
-        <Button />
+      <div>
         <ColourSwitcher />
         <TypeAnimation />
-      </div>
-      <div className="Cards">
-        <card />
       </div>
     </div>
   );

@@ -1,8 +1,8 @@
 .growing {
     width:150px;
     height:150px;
-    margin-top: 20%;
-    margin-left: 35%;
+    margin-top: 17%;
+    margin-left: 23%;
     position:relative;
     clip-path:inset(-100vh 0);
   }
