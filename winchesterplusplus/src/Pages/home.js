@@ -19,11 +19,7 @@ const Home = () => {
             <Link to="/salmah">Salmah's page</Link> */}
             <StandingDog/>
             <WalkingCat/>
-<<<<<<< HEAD
-            // <sunflower2/>
-=======
-            <SpinningSun />
->>>>>>> debda1beff5ffd8ea95ca12d8bc4783a22ef4334
+            {/* // <sunflower2/> */}
         </div>
     )
 }
