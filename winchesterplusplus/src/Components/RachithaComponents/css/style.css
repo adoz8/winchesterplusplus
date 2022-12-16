@@ -108,9 +108,9 @@
 .rachitha-text{
   font-family: 'Open Sans';
 
-  font-weight: 300;
+  font-weight: 700;
 
-  text-align: center;
+  text-align:left;
 
   position: absolute;
 
@@ -118,23 +118,41 @@
 
   right: 0;
 
-  left: 0;
+  left: 10%;
 }
 
   .rachiname {
     margin-left: -600px;
     animation: showname 3s linear ;
-  }
-
-  @keyframes showname {
-    from {
-      opacity: 0;
-      
     }
+
+    @keyframes showname {
+      from {
+        opacity: 0;
+        
+      }
+      to{
+        opacity: 1;
+      }
+    }
+/* 
+    .rachiwelcome {
+      margin-left: -600px;
+      animation: showwelcome 3s linear;
+    }
+
+  
+
+  @keyframes showwelcome {
+    
+     from{
+      opacity: 0;
+    }  
     to{
       opacity: 1;
     }
-  }
+  } */
+  
 
   /* button {
 
