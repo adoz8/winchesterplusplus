@@ -2,6 +2,7 @@
 
     display: flex;
     align-items: flex-end;
+    overflow: hidden;
 
     width: 100vw;
 
@@ -120,7 +121,20 @@
   left: 0;
 }
 
-  
+  .rachiname {
+    margin-left: -600px;
+    animation: showname 3s linear ;
+  }
+
+  @keyframes showname {
+    from {
+      opacity: 0;
+      
+    }
+    to{
+      opacity: 1;
+    }
+  }
 
   /* button {
 

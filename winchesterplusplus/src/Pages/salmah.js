@@ -2,7 +2,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import "../Components/SalmahComponents/MainStyleSheet.css";
-
+import Button from "../Components/SalmahComponents/Button";
 
 
 
@@ -13,6 +13,9 @@ import "../Components/SalmahComponents/MainStyleSheet.css";
 const Salmah = () => {
   return (
     <div className="SalmahPage">
+      <div className="Button">
+        <Button />
+      </div>
     </div>
   );
 };
