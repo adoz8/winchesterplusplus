@@ -1,16 +1,27 @@
 .SpinningSun {
-    animation: rotation 2s infinite;
+    animation: rotation 4s linear infinite;
     height: 10rem;
     width: 10rem;
+    margin-bottom: 425px;
+    margin-left: 50px;
     object-position: center top;
 }
 
 @keyframes rotation {
-    0% {
+
+    0%{
         transform: rotate(0deg);
+        height: 13rem;
+        width: 13rem;
+    }
+    50%{
+        height: 14rem;
+        width: 14rem;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate(359deg);
+        height: 13rem;
+        width: 13rem;
     }
 }
 
