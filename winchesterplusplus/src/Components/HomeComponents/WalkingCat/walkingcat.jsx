@@ -8,7 +8,7 @@ import "./walkingcat.css"
 const WalkingCat = () => {
     return(
         <div>
-            <Link to="/alisa">
+            <Link className="gato__link" to="/alisa">
                 <div id="gato"/>
             </Link>
         </div>
