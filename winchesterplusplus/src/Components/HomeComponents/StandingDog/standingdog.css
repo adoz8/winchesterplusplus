@@ -2,8 +2,9 @@
 
   .sausage-dog-animation {
     height: 15rem;
-    max-height: 80vh;
-    max-width: 80vw;
+    max-height: 200px;
+    max-width: 250px;
+    margin-bottom: -55px;
   }
   
   .ear,

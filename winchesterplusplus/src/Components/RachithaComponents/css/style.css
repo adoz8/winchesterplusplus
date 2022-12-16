@@ -1,8 +1,9 @@
 .gradient-animation {
 
     display: flex;
+    align-items: flex-end;
 
-    width: 100wh;
+    width: 100vw;
 
     height: 100vh;
 
