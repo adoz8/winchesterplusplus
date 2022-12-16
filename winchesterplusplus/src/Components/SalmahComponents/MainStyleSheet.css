@@ -9,3 +9,7 @@ so that specific vlaues can be reused throughought the document*/
     --fourth-bg-color: #CBB9A8;
     --font: Roboto Mono, monospace;
 }
+
+.SalmahPage {
+    background-color: var(--main-bg-color);
+}
