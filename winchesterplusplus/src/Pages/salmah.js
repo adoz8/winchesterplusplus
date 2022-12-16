@@ -4,10 +4,10 @@ import React from "react";
 import "../Components/SalmahComponents/MainStyleSheet.css";
 
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
-import Home from "./Pages/home";
+//import Home from "./Pages/home";
 import TypeAnimation from "../Components/SalmahComponents/TypeAnimation/TypeAnimation";
 import ColourSwitcher from "../Components/SalmahComponents/ColourSwitch/colour-switch";
-import Navigationbar from "../Components/SalmahComponents/Navigation/Navbar";
+//import Navigationbar from "../Components/SalmahComponents/Navigation/Navbar";
 
 
 const Salmah = () => {
