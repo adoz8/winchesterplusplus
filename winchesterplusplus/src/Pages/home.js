@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
 import "../Components/HomeComponents/background.css";
 import SpinningSun from "../Components/HomeComponents/SpinningSun/SpinningSun";
@@ -8,9 +8,9 @@ import WalkingCat from "../Components/HomeComponents/WalkingCat/walkingcat";
 // import sunflower2 from "../Components/RachithaComponents/sunflower";
 
 const Home = () => {
-    return(
-        <div className="home-background__container">
-            {/* <Link to="/alisa">Alisa's page</Link>
+  return (
+    <div className="home-background__container">
+      {/* <Link to="/alisa">Alisa's page</Link>
             <br/>
             <Link to="/byron">Byron's page</Link>
             <br/>
@@ -25,5 +25,3 @@ const Home = () => {
         </div>
     )
 }
-
-export default Home
