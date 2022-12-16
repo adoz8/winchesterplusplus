@@ -7,7 +7,7 @@ const Happy = () =>
     return(
         <div>
             <Link to= "/">
-                <button>Back</button>
+                <button className="buttonfun">Back</button>
             </Link>
         </div>
     );
