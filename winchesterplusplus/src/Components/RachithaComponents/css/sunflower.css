@@ -123,9 +123,9 @@ position:absolute;
 	top: -50px; left: -10px;
 	position:absolute;
 	box-shadow: 0 5px 10px -9px black;
-	-moz-transform: 0 5px 10px -9px black;
+	/* -moz-transform: 0 5px 10px -9px black;
 	-ms-transform: 0 5px 10px -9px black;
-	-o-transform: 0 5px 10px -9px black;
+	-o-transform: 0 5px 10px -9px black; */
 }
 
 @keyframes petals {
