@@ -1,4 +1,9 @@
-.rachitha2page {
-    background-color: lightsalmon;
+:root {
+    --background-color: lightsalmon;
     height: 100vw;
+}
+
+
+html,body{
+    height: 100%
 }
