@@ -1,10 +1,10 @@
-*,
-*::after,
-*::before{
-    padding: 0;
+/* *,
+/* *::after, */
+/* *::before{ */
+    /* padding: 0;
     margin: 0;
-    box-sizing: border-box;
-}
+    box-sizing: border-box; */
+/* } */
 
 :root{
     --color-bg: linear-gradient(to top,#010329,#000005);
@@ -85,8 +85,8 @@ body{
     position: absolute;
     left:0;
     top: 0;
-    width: 6vmin;
-    height: 6vmin;
+    width: 4vmin;
+    height: 4vmin;
     transform: translate(-69%,-30%) rotate(-5deg);
     border-radius:10vmin 10vmin 0 0;
     border: 2vmin solid  #104d4e;
