@@ -5,6 +5,8 @@
 }
 .sunflower{
   position:relative;
+  margin-bottom: 13%;
+  margin-left: 29%;
   height:30px;
   width:30px;
 }
@@ -12,9 +14,9 @@
   animation: hmove 2s infinite linear;
   height: 50px;
   width: 62px;
-  position: relative;
-  left:8px;
-  top:39px;
+  position:relative;
+  margin-left: 30%;
+  margin-top:1%;
   transform-origin: 50% -7px;
   user-select: none;
 }
@@ -54,6 +56,7 @@
   height:50px;
   width:50px;
   position:absolute;
+  margin-top: 123%;
   animation:petals 2s infinite linear;
   box-shadow:15px 17px #ffe000,
     -15px 17px #ffe000,

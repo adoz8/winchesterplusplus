@@ -1,9 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./css/sunflower.css";
 
-const sunflower2 = () =>
+const Sunflower2 = () =>
 {
     return (
+		<Link to= "/rachitha">
         <div id="position" class="sunflower">
         	<div class="head">
 	            <div id="eye-1" class="eye"></div>
@@ -17,7 +19,8 @@ const sunflower2 = () =>
 	        </div>
 	        <div class="vase"></div>
         </div>
-    );
+		</Link>
+    )
 
 }
-export default sunflower2;
+export default Sunflower2;

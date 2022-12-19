@@ -9,28 +9,12 @@ import Happy from "../Components/RachithaComponents/happy";
 import Potty from "../Components/RachithaComponents/potplant";
 import Rachiname from "../Components/RachithaComponents/name";
 
-// import NavBar from "../Components/ByronComponents/navbar/navbar";
-// import About from "../Components/RachithaComponents/About";
-// import Interesting from "../Components/RachithaComponents/Interesting";
-// import NavBar from "../Components/RachithaComponents/Navbar";
-
-// export default function App() {
-//     return (
-        
-//     );
-// }
 
 const Rachitha = () => {
     return(
-//     // <main className="text-gray-400 bg-gray-900 body-font">
-//     // {/* <NavBar /> */}
-//     //     <About />
-//     //     <Interesting />
-//     // </main>
          <div className="gradient-animation">
             <Happy/>
             <Rachiname/>
-                           {/* <Potty/> */}
             <Flower/>
 
          </div>
