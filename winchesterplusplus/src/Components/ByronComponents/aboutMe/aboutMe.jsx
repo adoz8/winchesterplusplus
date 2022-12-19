@@ -37,20 +37,12 @@ const Slide2 = () => {
     )
 }
 
-const Slide3 = () => {
-    return(
-        <div className="carousel__item">
-            <h1 className="aboutMe__title">Slide 3</h1> 
-            <h2 className="description">slide 3's description</h2>
-        </div>
-    )
-}
 
 
 class AboutMe extends Component{
     render() {
         return(
-            <Carousel slides={[Slide1, Slide2, Slide3]}/>    
+            <Carousel slides={[Slide1, Slide2]}/>    
         )
     }
 
