@@ -159,7 +159,3 @@ position:absolute;
 	75% {left:40px;transform:rotate(5deg);}
 	100% {left:34px;transform:rotate(-5deg);}
 }
-body {
-  background:#ffffff;
-  text-align:center;
-}
