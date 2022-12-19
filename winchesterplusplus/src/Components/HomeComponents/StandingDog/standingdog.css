@@ -6,6 +6,10 @@
     max-width: 250px;
     margin-bottom: -55px;
   }
+
+  .sausage-dog-animation:hover{
+    cursor: pointer;
+  }
   
   .ear,
   .closed-eye,
