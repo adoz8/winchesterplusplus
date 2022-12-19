@@ -25,7 +25,14 @@ const Slide2 = () => {
         <div className="carousel__item">
             <h1 className="aboutMe__title">My dog</h1> 
             <h2 className="description">Got a pet dog called freya</h2>
-            <img className="freya__img" src={require("./freya.jpg")}></img>
+            <div className="freya-img__container">
+                <img className="freya-0__img" src={require("./DogPictures/piggy0.jpg")}></img>
+                <img className="freya-0__img" src={require("./DogPictures/piggy2.jpg")}></img>
+                <img className="freya-0__img" src={require("./DogPictures/piggy3.jpg")}></img>
+                <img className="freya-0__img" src={require("./DogPictures/piggy4.jpg")}></img>
+                <img className="freya-0__img" src={require("./DogPictures/piggy5.jpg")}></img>
+                <img className="freya-0__img" src={require("./DogPictures/piggy6.jpg")}></img>
+            </div>
         </div>
     )
 }

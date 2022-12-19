@@ -12,14 +12,20 @@
     font-size: 2rem;
 }
 
-.freya__img{
+.freya-0__img{
     max-width: 312px;
-    max-height: 416px;
+    max-height: 400px;
 
-    border: 10px solid var(--secondary-color);
-    border-radius: 50px;
+    margin: 10px;
+}
 
-    margin-top: 70px;
+
+.freya-img__container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    padding: 10px 50px;
 }
 
 .map-img__container{
@@ -30,3 +36,4 @@
 .map__img{
     margin: 50px;
 }
+
