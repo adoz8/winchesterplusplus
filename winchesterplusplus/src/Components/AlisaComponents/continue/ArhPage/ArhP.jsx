@@ -1,5 +1,5 @@
 import React from "react";
-import "./ArtP.css"
+import "./Arh.css"
 import Cat1 from "./ArhPics/Arh1.png"
 import Cat2 from "./ArhPics/Arh2.jpg"
 import Cat3 from "./ArhPics/Arh3.jpg"
@@ -19,7 +19,7 @@ import Cat13 from "./ArhPics/Arh12.png"
 
 const Arhtography = () => {
     return(
-        <div class="artt">
+        <div class="arhh">
             <div>
                 <img class = "ct" alt="Architecture"src={Cat1} />
                 <img class = "ct" alt="Art"src={Cat2} />
