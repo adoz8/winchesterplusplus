@@ -24,7 +24,7 @@ const Slide2 = () => {
     return (
         <div className="carousel__item">
             <h1 className="aboutMe__title">My dog</h1> 
-            <h2 className="description">Got a pet dog called freya</h2>
+            <h2 className="description">I have a pet dog called freya</h2>
             <div className="freya-img__container">
                 <img className="freya-0__img" src={require("./DogPictures/piggy0.jpg")}></img>
                 <img className="freya-0__img" src={require("./DogPictures/piggy2.jpg")}></img>
@@ -37,12 +37,30 @@ const Slide2 = () => {
     )
 }
 
+const Slide3 = () => {
+    return (
+        <div className="carousel__item">
+            <h1 className="aboutMe__title">What I've enjoyed so far</h1>
+            <h2 className="description">I've enjoyed working on projects as a team and meeting like minded people</h2>            
+        </div>
+    )
+}
+
+const Slide4 = () => {
+    return (
+        <div className="carousel__item">
+            <h1 className="aboutMe__title">Interests</h1>
+            <h2 className="description">I enjoy going to the gym, building stuff and programming</h2>
+        </div>
+    )
+}
+
 
 
 class AboutMe extends Component{
     render() {
         return(
-            <Carousel slides={[Slide1, Slide2]}/>    
+            <Carousel slides={[Slide1, Slide2, Slide3, Slide4]}/>    
         )
     }
 
