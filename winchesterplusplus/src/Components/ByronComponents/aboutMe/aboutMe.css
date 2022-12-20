@@ -12,6 +12,18 @@
     font-size: 2rem;
 }
 
+.aboutMe-content__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.aboutMe-img{
+    max-width: 768px;
+    max-height: 432px;
+}
+
 .freya-0__img{
     max-width: 312px;
     max-height: 400px;
