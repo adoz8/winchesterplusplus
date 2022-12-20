@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
+import React from 'react';
+import './Button.css';
 
-import React from 'react'
 
 function Button() {
   return (
     <div>
         <Link to="/">
-            <button>Back</button>
+            <button className="Button">Back</button>
         </Link>
     </div>
   );

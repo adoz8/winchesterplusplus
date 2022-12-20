@@ -11,9 +11,13 @@ so that specific vlaues can be reused throughought the document*/
 }
 
 .SalmahPage {
-    background-color: var(--main-bg-color);
-    height: 100vh;
+    height: 3000px; /* Used to enable scrolling */
+    background: linear-gradient(55deg, #9ec2ff 0%, #7b9ff2 51%, #4259c3 85%);
+    scroll-behavior: smooth;
+    font-family: var(--font);
+    margin: 8px;
 }
+
 
 
 
