@@ -58,7 +58,6 @@ const Slide4 = () => {
             <div className="aboutMe-content__container">
                 <img src={require("./EnjoyedSoFarPics/windturbine.png")}/>
                 <img className="aboutMe-img" src={require("./EnjoyedSoFarPics/SquaresAPI.Png")}/>
-                <img className="aboutMe-img" src={require("./EnjoyedSoFarPics/SquaresC#.Png")}/>
                 <img className="aboutMe-img" src={require("./EnjoyedSoFarPics/SquaresSQL.Png")}/>
                 <img className="aboutMe-img" src={require("./EnjoyedSoFarPics/SquaresxamlPage.Png")}/>
             </div>
