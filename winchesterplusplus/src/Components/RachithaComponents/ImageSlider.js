@@ -26,9 +26,10 @@ if(!Array.isArray(slides) || slides.length <=0) {
       <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} />
       
     {SliderData2.map((slide, Index) => {
+        console.log(slide.Image);
         return (
           <div className={Index === current ? 'slide active' : 'slide' } key={Index}>
-          {Index === current && (<img src={slide.image} alt="SL image" className='image' />)}   
+          {Index === current && (<img src={require(slide)} alt="SL image" className='image' />)}   
              
           </div>
         )
