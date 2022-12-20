@@ -3,6 +3,8 @@
 import React from "react";
 import "../Components/SalmahComponents/MainStyleSheet.css";
 import Button from "../Components/SalmahComponents/Button";
+import ColourSwitcher from "../Components/SalmahComponents/ColourSwitch/colour-switch";
+import TypeAnimation from "../Components/SalmahComponents/TypeAnimation/TypeAnimation";
 
 
 
@@ -15,6 +17,12 @@ const Salmah = () => {
     <div className="SalmahPage">
       <div className="Button">
         <Button />
+      </div>
+      <div className="Title">
+        <ColourSwitcher />
+      </div>
+      <div className="Subheading">
+        <TypeAnimation />
       </div>
     </div>
   );
