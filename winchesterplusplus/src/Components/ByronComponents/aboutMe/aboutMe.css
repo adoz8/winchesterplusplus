@@ -17,6 +17,13 @@
     max-height: 400px;
 
     margin: 10px;
+
+    transition: max-height 1s linear, max-width 1s linear;
+}
+
+.freya-0__img:hover{
+    max-width: 330px;
+    max-height: 420px;
 }
 
 
