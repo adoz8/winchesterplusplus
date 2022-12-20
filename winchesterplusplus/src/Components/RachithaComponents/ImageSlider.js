@@ -2,6 +2,8 @@ import React, {useState} from 'react';
 import { SliderData2 } from './SliderData';
 import {FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa'
 
+const ImageD = ['./images/sl.jpg', './images/dana.jpg', './images/dilini.jpg','./images/cake1.jpg']
+const ImageText = ["I'm from Sri Lanka","I am passionate about Buddhism", "I love my charity work", "I love baking"]
 const ImageSlider = ({ slides}) => {
 const [current, setCurrent]  = useState(0);
 const length = slides.length;
@@ -25,12 +27,11 @@ if(!Array.isArray(slides) || slides.length <=0) {
       <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
       <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} />
       
-    {SliderData2.map((slide, Index) => {
-        console.log(slide.Image);
+    {ImageD.map((slide, Index) => {
         return (
           <div className={Index === current ? 'slide active' : 'slide' } key={Index}>
-          {Index === current && (<img src={require(slide)} alt="SL image" className='image' />)}   
-             
+          {Index === current && (<img src={require(`${slide}`)} alt="SL image" className='image' />)}   
+          <h1 className='addingCol'>{ImageText[Index]}</h1>
           </div>
         )
         
