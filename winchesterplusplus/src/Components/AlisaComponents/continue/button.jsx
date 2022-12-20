@@ -8,13 +8,13 @@ const Catton = () => {
     return(
         <div class="button_container">
             <div>
-                <a href="https://www.w3schools.com/Css/css_link.asp"><img class = "ct" alt="Architecture"src={Arch} /></a>
+                <a href="/alisaarh"><img class = "ct" alt="Architecture"src={Arch} /></a>
             </div>
-            <div><a href="https://www.w3schools.com/Css/css_link.asp"><img class = "ct" alt="Art"src={Art} /></a>
+            <div><a href="/alisaart"><img class = "ct" alt="Art"src={Art} /></a>
             </div>
-            <div><a href="https://www.w3schools.com/Css/css_link.asp"><img class = "ct" alt="Games"src={Games} /></a>
+            <div><a href="/alisagames"><img class = "ct" alt="Games"src={Games} /></a>
             </div>
-            <div><a href="https://www.w3schools.com/Css/css_link.asp"><img class = "ct" alt="Cat"src={Cat} /></a>
+            <div><a href="/alisacat"><img class = "ct" alt="Cat"src={Cat} /></a>
             </div>
         </div>
     )

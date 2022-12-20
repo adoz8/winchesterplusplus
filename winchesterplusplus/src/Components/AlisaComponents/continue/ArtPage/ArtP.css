@@ -1,0 +1,12 @@
+.artt img {
+    display:inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    margin: 20px;
+    height: 500px;
+    background: hsl(37, 75%, 57%);
+    padding:8px;
+    border-radius: 4px;
+
+}
