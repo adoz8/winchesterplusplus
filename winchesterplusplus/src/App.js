@@ -6,6 +6,7 @@ import Home from "./Pages/home";
 import Alisa from "./Pages/alisa";
 import Byron from "./Pages/byron";
 import Rachitha from "./Pages/rachitha";
+import Apple from "./Pages/rachitha2";
 import Salmah from "./Pages/salmah";
 import Alisa2 from "./Pages/alisa2";
 import Alisacat from "./Pages/alisacat";
