@@ -26,18 +26,10 @@ if(!Array.isArray(slides) || slides.length <=0) {
       <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
       <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} />
       
-<<<<<<< HEAD
     {ImageD.map((slide, Index) => {
         return (
           <div className={Index === current ? 'slide active' : 'slide' } key={Index}>
           {Index === current && (<img src={require(`${slide}`)} alt="SL image" className='image' />)}   
-=======
-    {SliderData2.map((slide, Index) => {
-        console.log(slide.Image);
-        return (
-          <div className={Index === current ? 'slide active' : 'slide' } key={Index}>
-          {Index === current && (<img src={require(slide)} alt="SL image" className='image' />)}   
->>>>>>> bbdf1264e10549b799c3a7421f6dc3b8f1a51912
              
           </div>
         )
