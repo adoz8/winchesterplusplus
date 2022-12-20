@@ -42,7 +42,11 @@ const Slide3 = () => {
         <div className="carousel__item">
             <h1 className="aboutMe__title">What I've enjoyed so far</h1>
             <h2 className="description">I've enjoyed working on projects as a team and meeting like minded people</h2>            
+            <div className="aboutMe-content__container">
+                
+            </div>
         </div>
+
     )
 }
 
@@ -51,6 +55,13 @@ const Slide4 = () => {
         <div className="carousel__item">
             <h1 className="aboutMe__title">Interests</h1>
             <h2 className="description">I enjoy going to the gym, building stuff and programming</h2>
+            <div className="aboutMe-content__container">
+                <img src={require("./EnjoyedSoFarPics/windturbine.png")}/>
+                <img className="aboutMe-img" src={require("./EnjoyedSoFarPics/SquaresAPI.Png")}/>
+                <img className="aboutMe-img" src={require("./EnjoyedSoFarPics/SquaresC#.Png")}/>
+                <img className="aboutMe-img" src={require("./EnjoyedSoFarPics/SquaresSQL.Png")}/>
+                <img className="aboutMe-img" src={require("./EnjoyedSoFarPics/SquaresxamlPage.Png")}/>
+            </div>
         </div>
     )
 }
