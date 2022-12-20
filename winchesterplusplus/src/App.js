@@ -8,6 +8,7 @@ import Byron from "./Pages/byron";
 import Rachitha from "./Pages/rachitha";
 import Salmah from "./Pages/salmah";
 import Alisa2 from "./Pages/alisa2";
+import Apple from "./Pages/rachitha2";
 
 import { Component } from "react";
 import { Route } from "react-router-dom";
@@ -22,6 +23,7 @@ class App extends Component {
         <Route exact path="/byron" component={Byron} />
         <Route exact path="/rachitha" component={Rachitha} />
         <Route exact path="/salmah" component={Salmah} />
+        <Route export path="/rachitha2" component={Apple} />
       </div>
     );
   }

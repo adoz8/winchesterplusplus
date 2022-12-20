@@ -27,8 +27,8 @@ if(!Array.isArray(slides) || slides.length <=0) {
       
     {SliderData2.map((slide, Index) => {
         return (
-          <div className={index === current ? 'slide active' : 'slide' } key={index}>
-          {index === current && (<img src={slide.image} alt="SL image" className='image' />)}   
+          <div className={Index === current ? 'slide active' : 'slide' } key={Index}>
+          {Index === current && (<img src={slide.image} alt="SL image" className='image' />)}   
              
           </div>
         )
