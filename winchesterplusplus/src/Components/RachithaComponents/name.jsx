@@ -6,16 +6,15 @@ import { Link } from "react-router-dom";
 const Rachiname = () =>
 {
     return(
-        <Link to={"/rachitha2"}>
+        
         <div>
+            <Link to={"/rachitha2"}>
             <h1 className="rachitha-text">Hi! I'm Rachitha</h1>
-            {/* <h2 className="rachitha-welcome">Welcome to my page</h2> */}
-            {/* <h1 className="rachiname">Hi My name is Rachitha</h1> */}
-            {/* <Link to "/rachitha2"> */}
-            {/* <h1 className="rachiname">Hi My name is Rachitha</h1> */}
-            {/* </Link> */}
+            </Link>
+            {/* <h2>I'm 38 years old and from Sri Lanka</h2>
+            <image */}
+
         </div>
-        </Link>
     );
 }
 export default Rachiname;

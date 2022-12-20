@@ -121,52 +121,25 @@
   left: 30%;
 }
 
+
   .rachiname {
+    opacity: 0;
+    transition-duration: 1s ease;
     margin-left: -600px;
-    animation: showname 3s linear ;
+    /* animation: showname 3s linear ; */
     }
 
-    @keyframes showname {
+  .rachiname.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+  }
+
+    /* @keyframes showname {
       from {
         opacity: 0;
           }
       to{
         opacity: 1;
       }
-    }
-/* 
-    .rachiwelcome {
-      margin-left: -600px;
-      animation: showwelcome 3s linear;
-    }
-
-  
-
-  @keyframes showwelcome {
-    
-     from{
-      opacity: 0;
-    }  
-    to{
-      opacity: 1;
-    }
-  } */
-  
-
-  /* button {
-
-    font-family: 'Open Sans';
-
-    font-weight: 300;
-
-    text-align: center;
-
-    position: absolute;
-
-    top: 50%;
-
-    right: 0;
-
-    left: 48%;
-
-  } */
+    } */
