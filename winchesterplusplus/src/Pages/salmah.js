@@ -46,6 +46,19 @@ const Salmah = () => {
         I used to live in Reading when I first moved to the UK in 2006, so not too far from the Bracknell Office.
         Did you know Leicester has UK's most diverse street with shopkeepers coming from 23 different countries!"
         />
+        <Cards
+        altext="Languages"
+        image={require("../Components/SalmahComponents/Cards/languages.png")}
+        title="Languages"
+        content="I enjoy learning different language and cultures, currently I can hold a basic conversation in Arabic, French, Japanese and Korean.
+        I learn them through Anime, Drama and other forms of culture."
+        />
+        <Cards
+        altext="Badminton Racket"
+        image={require("../Components/SalmahComponents/Cards/sports.png")}
+        title="Hobbies"
+        content="In my free time, I read a lot of books, play Badminton, go Cycling and bake."
+        />
       </div>
     </div>
   );
