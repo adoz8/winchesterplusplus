@@ -5,7 +5,9 @@ import "../Components/SalmahComponents/MainStyleSheet.css";
 import Button from "../Components/SalmahComponents/Button";
 import ColourSwitcher from "../Components/SalmahComponents/ColourSwitch/colour-switch";
 import TypeAnimation from "../Components/SalmahComponents/TypeAnimation/TypeAnimation";
-import CardsImageOverLay from "../Components/SalmahComponents/CardswithImageOverLay/CardsImageOverLay";
+import GroupExample from "../Components/SalmahComponents/CardGroup/CardGroup";
+
+
 
 
 const Salmah = () => {
@@ -19,9 +21,6 @@ const Salmah = () => {
       </div>
       <div className="Subheading">
         <TypeAnimation />
-      </div>
-      <div className="Where am I from?">
-        <CardsImageOverLay />
       </div>
     </div>
   );
