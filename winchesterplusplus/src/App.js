@@ -29,6 +29,7 @@ class App extends Component {
         <Route exact path="/byron" component={Byron} />
         <Route exact path="/rachitha" component={Rachitha} />
         <Route exact path="/salmah" component={Salmah} />
+        <Route export path="/rachitha2" component={Apple} />
       </div>
     );
   }

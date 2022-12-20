@@ -1,0 +1,31 @@
+
+.Card_body{
+    overflow: hidden;
+    box-shadow: 0 2px 20px lightgrey;
+    border-radius: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 200ms ease-in;
+}
+
+.Card_body:hover{
+    transform: scale(1.02);
+}
+
+.Card_image{
+    height:12rem;
+    width:100%;
+    object-fit: cover;
+}
+
+.Card.title{
+    padding: 1rem; 
+}
+
+.Card_content{
+    padding: 0 1rem;
+}
+
+
+

@@ -18,6 +18,30 @@ so that specific vlaues can be reused throughought the document*/
     margin: 8px;
 }
 
+.Title{
+    font-family: var(--font);
+    font-size: 50px;
+}
+
+.Subheading{
+    font-family: var(--font);
+    font-size: 25px;
+    object-position: center;
+}
+
+.Card_Wrapper{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(12rem,16rem));
+    gap:2rem;
+    justify-content:center;
+}
+
+
+
+
 
 
 

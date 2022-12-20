@@ -9,9 +9,10 @@ function TypeAnimation() {
         <div className="animated-typing">
         <Typed
             strings={[
-                "Software Development",
+                "Software Developer",
                 "Degree Apprentice",
                 "Working at Fujitsu",
+                "Enjoying Front-End Development and Python",
             ]}  
             typeSpeed={130}
             backSpeed={80}
