@@ -1,0 +1,45 @@
+.center-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container{
+    position: relative;
+    display: inline-block;
+    padding: 0 40px;
+    cursor: pointer;
+}
+
+.text{
+    font-size: 100px;
+    text-transform: uppercase;
+    font-weight: 900;
+    position: relative;
+    color: #cbbddb
+}
+
+.text::before{
+    content: attr(data-text);
+    position: absolute;
+    color: #fff;
+    width:0;
+    overflow: hidden;
+    transition: 0.6s;
+}
+
+.container::before{
+    content: "";
+    width: 0%;
+    height:100%;
+    position: absolute;
+    background: #9985fb;
+    right: 0;
+    top: 0;
+    transition: 0.6s;
+}
+
+.container:hover .text::before, .container:hover::before{
+    width: 100%;
+}
