@@ -6,6 +6,7 @@ import Button from "../Components/SalmahComponents/Button";
 import ColourSwitcher from "../Components/SalmahComponents/ColourSwitch/colour-switch";
 import TypeAnimation from "../Components/SalmahComponents/TypeAnimation/TypeAnimation";
 import Cards from "../Components/SalmahComponents/Cards/Cards";
+import HoverTitle from "../Components/SalmahComponents/Title/HoverTitle";
 
 
 
@@ -16,6 +17,9 @@ const Salmah = () => {
     <div className="SalmahPage">
       <div className="Button">
         <Button />
+      </div>
+      <div className="Test">
+        <HoverTitle />
       </div>
       <div className="Title">
         <ColourSwitcher />
