@@ -12,8 +12,8 @@
     };
 
     return (
-        <div className="Name" onClick={handleClick} style={{ backgroundColor: active ? "blue" : "", color: active? "white": " "}}>
-            <h1>Salmah Shiham Abdulwahid</h1>
+        <div className="Name" onClick={handleClick} style={{ backgroundColor: active ? "#B9D9EB" : "", color: active? "#F0F8FF": " "}}>
+            <h1>Where am I from?</h1>
         </div>
     );
 

@@ -1,12 +1,16 @@
-
+.Card {
+    display: block;
+}
 .Card_body{
     overflow: hidden;
-    box-shadow: 0 2px 20px lightgrey;
+    box-shadow: 0 2px 20px #FFDAB9;
     border-radius: 0.2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     transition: transform 200ms ease-in;
+    height:25rem;
+    width:100%
 }
 
 .Card_body:hover{

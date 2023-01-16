@@ -6,7 +6,7 @@ import './HoverTitle.css';
 function HoverTitle() {
   return (
     <div className="center-container">
-        <span className="container">
+        <span className="salmahcontainer">
             <div className="text" data-text="SalmahShihamAbdulwahid">Salmah Shiham Abdulwahid
             </div>
         </span>

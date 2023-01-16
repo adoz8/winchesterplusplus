@@ -7,6 +7,7 @@ import ColourSwitcher from "../Components/SalmahComponents/ColourSwitch/colour-s
 import TypeAnimation from "../Components/SalmahComponents/TypeAnimation/TypeAnimation";
 import Cards from "../Components/SalmahComponents/Cards/Cards";
 import HoverTitle from "../Components/SalmahComponents/Title/HoverTitle";
+import ColourSwitcher2 from "../Components/SalmahComponents/ColourSwitch2/ColourSwitch2";
 
 
 
@@ -15,17 +16,14 @@ import HoverTitle from "../Components/SalmahComponents/Title/HoverTitle";
 const Salmah = () => {
   return (
     <div className="SalmahPage">
-      <div className="Button">
-        <Button />
-      </div>
-      <div className="Test">
-        <HoverTitle />
-      </div>
       <div className="Title">
-        <ColourSwitcher />
+        <HoverTitle />
       </div>
       <div className="Subheading">
         <TypeAnimation />
+      </div>
+      <div className="SubsubHeading">
+        <ColourSwitcher />
       </div>
       <div className="Card_Wrapper">
         <Cards
@@ -50,6 +48,11 @@ const Salmah = () => {
         I used to live in Reading when I first moved to the UK in 2006, so not too far from the Bracknell Office.
         Did you know Leicester has UK's most diverse street with shopkeepers coming from 23 different countries!"
         />
+      </div>
+      <div className="Subheading for hobbies">
+        <ColourSwitcher2 />
+      </div>
+      <div className="Card_Wrapper">
         <Cards
         altext="Languages"
         image={require("../Components/SalmahComponents/Cards/languages.png")}
@@ -63,6 +66,9 @@ const Salmah = () => {
         title="Hobbies"
         content="In my free time, I read a lot of books, play Badminton, go Cycling and bake."
         />
+      </div>
+      <div className="Button">
+        <Button />
       </div>
     </div>
   );

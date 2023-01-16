@@ -1,11 +1,11 @@
 .center-container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
     transform: translate(-50%, -50%);
+    position: relative;
+    left: 60%;
+    top: 50px;
 }
 
-.container{
+.salmahcontainer{
     position: relative;
     display: inline-block;
     padding: 0 40px;
@@ -13,33 +13,33 @@
 }
 
 .text{
-    font-size: 100px;
+    font-size: 75px;
     text-transform: uppercase;
     font-weight: 900;
     position: relative;
-    color: #cbbddb
+    color: #F0F8FF
 }
 
 .text::before{
     content: attr(data-text);
     position: absolute;
-    color: #fff;
+    color: #b9dcf2;
     width:0;
     overflow: hidden;
     transition: 0.6s;
 }
 
-.container::before{
+.salmahcontainer::before{
     content: "";
     width: 0%;
     height:100%;
     position: absolute;
-    background: #9985fb;
     right: 0;
     top: 0;
+    background: #f6cfbe;
     transition: 0.6s;
 }
 
-.container:hover .text::before, .container:hover::before{
+.salmahcontainer:hover .text::before, .salmahcontainer:hover::before{
     width: 100%;
 }
